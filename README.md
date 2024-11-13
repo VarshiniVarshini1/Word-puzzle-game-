@@ -1,1 +1,1 @@
-Ive created word puzzle game using html css javascript 
+I've created word puzzle game using html css javascript 
