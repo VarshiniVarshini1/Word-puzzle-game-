@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Word Puzzle Game</h1>
+        <p>Level: <span id="level">1</span></p>
+        <p>Find the hidden word!</p>
+        <div class="word-grid" id="wordGrid"></div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Enter the word" />
+            <button onclick="checkWord()">Check Word</button>
+        </div>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
